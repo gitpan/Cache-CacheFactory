@@ -1,0 +1,45 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 6173c39c8e2545ba650a51cb01cbda635c2c1b23 Build.PL
+SHA1 e1f70e2245190c805ca259c373eb4c39734eadf6 COPYING
+SHA1 11ed3086c623efc695eb80ed6c10121a7aafc10a Changes
+SHA1 8ff61839c4b9188f20cfb9b84a439ff11d5d05fe MANIFEST
+SHA1 d0fcdee713689f1b03886d442becee2e7aa01d08 META.yml
+SHA1 1c3c8896ad9998c841bcf784be4a3728d52a77f8 README
+SHA1 301ec0762b3630d8159707ec5687848796f7b1de lib/Cache/CacheFactory.pm
+SHA1 6553a5af84027324c912eca3de2e1ee68dd312c3 lib/Cache/CacheFactory/Expiry.pm
+SHA1 bc8d1a99b2a92a08955266eaa0e1c9e312a1ce21 lib/Cache/CacheFactory/Expiry/Base.pm
+SHA1 183dd9d9f96a10e6ab3b6986deee20b931b20401 lib/Cache/CacheFactory/Expiry/LastModified.pm
+SHA1 00604978589c9c41d2925a5c8846dcac71c5818e lib/Cache/CacheFactory/Expiry/Size.pm
+SHA1 3a0565c2a38ec52f2337281aa4cf84a61e48164a lib/Cache/CacheFactory/Expiry/Time.pm
+SHA1 90967e69f06b814b9d12103768fd05ed82da028d lib/Cache/CacheFactory/Object.pm
+SHA1 ffcf20cfec842d397bdba1a455f0d15d618cb852 lib/Cache/CacheFactory/Storage.pm
+SHA1 87693726f1469282b8fd6e7c646c23bd25f73987 t/00-load.t
+SHA1 035c30820c61b4cc810c94912e17ae718549b133 t/expiry-lastmodified.t
+SHA1 b060c0ea29697ded9e7c333f2b0f510b08f32bc1 t/expiry-time.t
+SHA1 cd39c381a1727adba590ad7fc9a7fcc846748575 t/export.t
+SHA1 c78e55531c484b1884c73c6c494dd98528d2f879 t/namespace.t
+SHA1 7158766571e3332c690305e431e46772ff7fb7ad t/pod-coverage.t
+SHA1 640935336dc1123c0069bcf5432bcaedc2cf22d3 t/pod.t
+SHA1 ec8e4c5f357af2f91c516fc2a753cf9bbae40258 t/storage.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFIbPuMk0asf7iG0tQRAolJAJ9FHwVGwHrtPvo3eXEVkGOtqHHO5wCgp0QB
+R8cH4lNYzd31E85cTpxxY+M=
+=Hsjk
+-----END PGP SIGNATURE-----

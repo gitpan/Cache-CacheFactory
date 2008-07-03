@@ -1,0 +1,42 @@
+---
+name: Cache-CacheFactory
+version: 1.01
+author:
+  - 'Sam Graham <libcache-cachefactory-perl@illusori.co.uk>'
+abstract: factory class for Cache::Cache and other modules.
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  Cache::BaseCache: 0
+  Cache::Cache: 0
+  Cache::Object: 0
+  Carp: 0
+  Class::Factory: 0
+  Storable: 1.014
+  Test::More: 0
+recommends:
+  Cache::FileCache: 0
+  Cache::MemoryCache: 0
+  Cache::SharedMemoryCache: 0
+provides:
+  Cache::CacheFactory:
+    file: lib/Cache/CacheFactory.pm
+  Cache::CacheFactory::Expiry:
+    file: lib/Cache/CacheFactory/Expiry.pm
+  Cache::CacheFactory::Expiry::Base:
+    file: lib/Cache/CacheFactory/Expiry/Base.pm
+  Cache::CacheFactory::Expiry::LastModified:
+    file: lib/Cache/CacheFactory/Expiry/LastModified.pm
+  Cache::CacheFactory::Expiry::Size:
+    file: lib/Cache/CacheFactory/Expiry/Size.pm
+  Cache::CacheFactory::Expiry::Time:
+    file: lib/Cache/CacheFactory/Expiry/Time.pm
+  Cache::CacheFactory::Object:
+    file: lib/Cache/CacheFactory/Object.pm
+  Cache::CacheFactory::Storage:
+    file: lib/Cache/CacheFactory/Storage.pm
+generated_by: Module::Build version 0.280801
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2

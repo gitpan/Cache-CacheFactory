@@ -2,7 +2,7 @@
 # Purpose : Generic Cache Factory with various policy factories.
 # Author  : Sam Graham
 # Created : 23 Jun 2008
-# CVS     : $Id: CacheFactory.pm,v 1.3 2008-06-27 11:58:10 illusori Exp $
+# CVS     : $Id: CacheFactory.pm,v 1.4 2008-07-03 22:06:45 illusori Exp $
 ###############################################################################
 
 package Cache::CacheFactory;
@@ -21,7 +21,7 @@ use Cache::CacheFactory::Object;
 use base qw/Cache::Cache/;
 
 $Cache::CacheFactory::VERSION =
-    sprintf"%d.%03d", q$Revision: 1.3 $ =~ /: (\d+)\.(\d+)/;
+    sprintf"%d.%03d", q$Revision: 1.4 $ =~ /: (\d+)\.(\d+)/;
 
 @Cache::CacheFactory::EXPORT    = qw();
 @Cache::CacheFactory::EXPORT_OK = qw(
@@ -1031,7 +1031,7 @@ Look at L</"OPTIONS"> for further details.
 
 =back
 
-=head1 non-OO functions
+=head1 NON-OBJECT-ORIENTATED FUNCTIONS
 
 =over
 
@@ -1293,7 +1293,7 @@ used to provide a fake cache that never stores anything.
 All I<pruning> and I<validity> policies are interchangable, the difference
 between the two is when the policy is applied:
 
-An pruning policy is applied when you C<purge()> or periodically if
+A pruning policy is applied when you C<purge()> or periodically if
 C<auto_purge_on_set> or C<autopurge_on_get> is set, it removes all
 entries that fail the policy from the cache. Note that an item can
 be I<eligible> to be pruned but still be in the cache and fetched
@@ -1530,7 +1530,11 @@ caches seperately but presents the Cache::Cache API externally.
 
 =head1 SEE ALSO
 
-L<Cache::Cache>, L<Cache::CacheFactory::Object>
+L<Cache::Cache>, L<Cache::CacheFactory::Object>,
+L<Cache::CacheFactory::Expiry::Base>,
+L<Cache::CacheFactory::Expiry::Time>,
+L<Cache::CacheFactory::Expiry::Size>,
+L<Cache::CacheFactory::Expiry::LastModified>
 
 =head1 SUPPORT
 

@@ -20,6 +20,8 @@ t/export.t
 t/namespace.t
 t/pod-coverage.t
 t/pod.t
+t/size-hack-force-missing-devel-size.t
+t/size-hack-with-devel-size.t
 t/storage.t
 TODO
 SIGNATURE    Added here by Module::Build

@@ -1,6 +1,6 @@
 ---
 name: Cache-CacheFactory
-version: 1.04
+version: 1.04_01
 author:
   - 'Sam Graham <libcache-cachefactory-perl@illusori.co.uk>'
 abstract: factory class for Cache::Cache and other modules.
@@ -27,20 +27,28 @@ recommends:
 provides:
   Cache::CacheFactory:
     file: lib/Cache/CacheFactory.pm
+    version: 1.006
   Cache::CacheFactory::Expiry:
     file: lib/Cache/CacheFactory/Expiry.pm
+    version: 1.005
   Cache::CacheFactory::Expiry::Base:
     file: lib/Cache/CacheFactory/Expiry/Base.pm
+    version: 1.005
   Cache::CacheFactory::Expiry::LastModified:
     file: lib/Cache/CacheFactory/Expiry/LastModified.pm
+    version: 1.004
   Cache::CacheFactory::Expiry::Size:
     file: lib/Cache/CacheFactory/Expiry/Size.pm
+    version: 1.003
   Cache::CacheFactory::Expiry::Time:
     file: lib/Cache/CacheFactory/Expiry/Time.pm
+    version: 1.005
   Cache::CacheFactory::Object:
     file: lib/Cache/CacheFactory/Object.pm
+    version: 1.004
   Cache::CacheFactory::Storage:
     file: lib/Cache/CacheFactory/Storage.pm
+    version: 1.005
 generated_by: Module::Build version 0.280801
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html

@@ -14,21 +14,21 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 d499bdeb3bbb75cc28f1f45f361e1d6a82a54fe4 Build.PL
+SHA1 2a0e6b62acaac2ac878f16e2ef6b816aace1b550 Build.PL
 SHA1 e1f70e2245190c805ca259c373eb4c39734eadf6 COPYING
-SHA1 e03cc93961d3c2f145fda9d0ec9530181d1f824b Changes
+SHA1 64e4228f60020964f44902bba5092f21d5602cd7 Changes
 SHA1 d63334e521c8db68d152e2789a3d8e7001a3862c MANIFEST
-SHA1 59e16fea9b14ecee2546c307af6e5278b84c0e55 META.yml
+SHA1 7cc00f740f3a6d02c4b2d370ddd72a0ce1990fc4 META.yml
 SHA1 1c3c8896ad9998c841bcf784be4a3728d52a77f8 README
-SHA1 2ff8ae48c91d207ab96617fa458d9118182a82c3 TODO
-SHA1 4d6fddbe2755cae2a4b168633bc5a9b8ea2fc74f lib/Cache/CacheFactory.pm
-SHA1 ded9cdd7d7f0530af6fd3e7ca942adaf748ca5a5 lib/Cache/CacheFactory/Expiry.pm
-SHA1 60d57b724c97f166d5864616c6cebbdeeeec8d30 lib/Cache/CacheFactory/Expiry/Base.pm
-SHA1 183dd9d9f96a10e6ab3b6986deee20b931b20401 lib/Cache/CacheFactory/Expiry/LastModified.pm
-SHA1 aa3b9d945833526ecb62f35fa92d6e010d1f158a lib/Cache/CacheFactory/Expiry/Size.pm
-SHA1 d8ae371639d06b4e9be0060b2d1a9ce1b813c924 lib/Cache/CacheFactory/Expiry/Time.pm
-SHA1 90967e69f06b814b9d12103768fd05ed82da028d lib/Cache/CacheFactory/Object.pm
-SHA1 4124195568db9a000b30d96c07fe4a832fbc962c lib/Cache/CacheFactory/Storage.pm
+SHA1 cbb770f57bf3f74678d5d561407e8ba4e0265f19 TODO
+SHA1 1fb099f5bbbbc8a7013d7c4f549216cb9fd9d5f6 lib/Cache/CacheFactory.pm
+SHA1 361faee2629ba9b6e6549a07b59e906e08e63423 lib/Cache/CacheFactory/Expiry.pm
+SHA1 e05730153e6e8b93a6b9885223eaf83061feadf3 lib/Cache/CacheFactory/Expiry/Base.pm
+SHA1 f94ada2148922ed6b771aa1ff254677e60a289c8 lib/Cache/CacheFactory/Expiry/LastModified.pm
+SHA1 d6df5870af0c2d2e665568528a776bb50ad6b3ba lib/Cache/CacheFactory/Expiry/Size.pm
+SHA1 c1958610ba173100f32869e6c2ff3b325d414fda lib/Cache/CacheFactory/Expiry/Time.pm
+SHA1 d2f19952a7389207129da48842a7f7e457742876 lib/Cache/CacheFactory/Object.pm
+SHA1 a489d18b35ce0260c4ed9102eccf424a9f4672a5 lib/Cache/CacheFactory/Storage.pm
 SHA1 87693726f1469282b8fd6e7c646c23bd25f73987 t/00-load.t
 SHA1 9e3acdbe15049cead2b40c8bdcea0b191360ed4b t/expiry-lastmodified.t
 SHA1 4d5ebb3534b5872e76c7e65e8679ec2e5776465c t/expiry-size.t
@@ -43,7 +43,7 @@ SHA1 aaed7654d8c955275a7ab724e8596add76824f9a t/storage.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.6 (GNU/Linux)
 
-iD8DBQFIb4bek0asf7iG0tQRAhKaAJ9dtvX4Qb1tINyxXP8o5VEzutVH9gCeL1r8
-4g6MqqaDgjqylDCV+js1OJA=
-=0QIT
+iD8DBQFIcpPgk0asf7iG0tQRAjd9AJ45FbzIRZbacoOje442hzjBnXjVwACfcHdo
+4Pr5LPd/Ow2BmxJlPuhqCvk=
+=0VRd
 -----END PGP SIGNATURE-----

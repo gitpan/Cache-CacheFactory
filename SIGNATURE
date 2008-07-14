@@ -14,36 +14,38 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 2a0e6b62acaac2ac878f16e2ef6b816aace1b550 Build.PL
+SHA1 55441e0ac1eea9a18b045d3f10696e61c21310dc Build.PL
 SHA1 e1f70e2245190c805ca259c373eb4c39734eadf6 COPYING
-SHA1 64e4228f60020964f44902bba5092f21d5602cd7 Changes
-SHA1 d63334e521c8db68d152e2789a3d8e7001a3862c MANIFEST
-SHA1 7cc00f740f3a6d02c4b2d370ddd72a0ce1990fc4 META.yml
+SHA1 e282583fb44423e9c0eaa0a8caaf2607e2a7f1b8 Changes
+SHA1 596072736e34603ba00cf323b1c29fc06dbc47f6 MANIFEST
+SHA1 aefc4facd2bc748abb7d89e12a68a3ce783003ee META.yml
+SHA1 f44a610f611cc4333f9a9b52873bc5a35fb7ffb3 Makefile.PL
 SHA1 1c3c8896ad9998c841bcf784be4a3728d52a77f8 README
-SHA1 cbb770f57bf3f74678d5d561407e8ba4e0265f19 TODO
-SHA1 1fb099f5bbbbc8a7013d7c4f549216cb9fd9d5f6 lib/Cache/CacheFactory.pm
+SHA1 6938b4535538016e174e8ac41cb5b77f3a300d0f TODO
+SHA1 05d529c3763353f3658c93e4884286dd4578c4f4 lib/Cache/CacheFactory.pm
 SHA1 361faee2629ba9b6e6549a07b59e906e08e63423 lib/Cache/CacheFactory/Expiry.pm
 SHA1 e05730153e6e8b93a6b9885223eaf83061feadf3 lib/Cache/CacheFactory/Expiry/Base.pm
 SHA1 f94ada2148922ed6b771aa1ff254677e60a289c8 lib/Cache/CacheFactory/Expiry/LastModified.pm
 SHA1 d6df5870af0c2d2e665568528a776bb50ad6b3ba lib/Cache/CacheFactory/Expiry/Size.pm
 SHA1 c1958610ba173100f32869e6c2ff3b325d414fda lib/Cache/CacheFactory/Expiry/Time.pm
-SHA1 d2f19952a7389207129da48842a7f7e457742876 lib/Cache/CacheFactory/Object.pm
-SHA1 a489d18b35ce0260c4ed9102eccf424a9f4672a5 lib/Cache/CacheFactory/Storage.pm
+SHA1 d413e839033f37357383bcf936b596ec6b98a3eb lib/Cache/CacheFactory/Object.pm
+SHA1 c1b630d4b39e8187e275c85914699c9446c84a09 lib/Cache/CacheFactory/Storage.pm
 SHA1 87693726f1469282b8fd6e7c646c23bd25f73987 t/00-load.t
-SHA1 9e3acdbe15049cead2b40c8bdcea0b191360ed4b t/expiry-lastmodified.t
-SHA1 4d5ebb3534b5872e76c7e65e8679ec2e5776465c t/expiry-size.t
-SHA1 b060c0ea29697ded9e7c333f2b0f510b08f32bc1 t/expiry-time.t
-SHA1 70a05fefce6140101c7babd4b744fb6991676afb t/export.t
-SHA1 c78e55531c484b1884c73c6c494dd98528d2f879 t/namespace.t
-SHA1 7158766571e3332c690305e431e46772ff7fb7ad t/pod-coverage.t
-SHA1 640935336dc1123c0069bcf5432bcaedc2cf22d3 t/pod.t
-SHA1 2db19e4049b79f951857248738d585c993c2477b t/size-hack-force-missing-devel-size.t
-SHA1 c6804303ceab62d0457b9c1c1fcc89b8a32dadbe t/size-hack-with-devel-size.t
-SHA1 aaed7654d8c955275a7ab724e8596add76824f9a t/storage.t
+SHA1 c78e55531c484b1884c73c6c494dd98528d2f879 t/10-namespace.t
+SHA1 aaed7654d8c955275a7ab724e8596add76824f9a t/20-storage.t
+SHA1 c6804303ceab62d0457b9c1c1fcc89b8a32dadbe t/30-size-hack-with-devel-size.t
+SHA1 2db19e4049b79f951857248738d585c993c2477b t/31-size-hack-force-missing-devel-size.t
+SHA1 580d79fdfa9275d3c751d2a1a46aab34adc5268e t/40-expiry-lastmodified.t
+SHA1 4d5ebb3534b5872e76c7e65e8679ec2e5776465c t/40-expiry-size.t
+SHA1 b060c0ea29697ded9e7c333f2b0f510b08f32bc1 t/40-expiry-time.t
+SHA1 930b59aa981bd81ecf5430a7e001590159fc4d31 t/50-deep-clone.t
+SHA1 790abf4e23943e36e689be49fa589c2dd4780dc8 t/80-export.t
+SHA1 640935336dc1123c0069bcf5432bcaedc2cf22d3 t/90-pod.t
+SHA1 7158766571e3332c690305e431e46772ff7fb7ad t/99-pod.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.6 (GNU/Linux)
 
-iD8DBQFIcpPgk0asf7iG0tQRAjd9AJ45FbzIRZbacoOje442hzjBnXjVwACfcHdo
-4Pr5LPd/Ow2BmxJlPuhqCvk=
-=0VRd
+iD8DBQFIe06jk0asf7iG0tQRAvwiAJ4+owVfwyok1D4f6GjLqebdhSfPtQCgr2X9
+VhOmdTd0ZpNez4mxJHpfyTg=
+=BXEc
 -----END PGP SIGNATURE-----

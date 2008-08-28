@@ -1,6 +1,6 @@
 ---
 name: Cache-CacheFactory
-version: 1.07
+version: 1.07_01
 author:
   - 'Sam Graham <libcache-cachefactory-perl@illusori.co.uk>'
 abstract: factory class for Cache::Cache and other modules.
@@ -9,7 +9,7 @@ resources:
   license: http://dev.perl.org/licenses/
 requires:
   Cache::BaseCache: 0
-  Cache::Cache: 0
+  Cache::Cache: 1
   Cache::Object: 0
   Carp: 0
   Class::Factory: 0
@@ -30,7 +30,7 @@ recommends:
 provides:
   Cache::CacheFactory:
     file: lib/Cache/CacheFactory.pm
-    version: 1.07
+    version: 1.07_01
   Cache::CacheFactory::Expiry:
     file: lib/Cache/CacheFactory/Expiry.pm
     version: 1.005

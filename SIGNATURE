@@ -16,13 +16,13 @@ Hash: SHA1
 
 SHA1 6a7c71578e6b2ebd0a84bd297986798f1437f244 Build.PL
 SHA1 e1f70e2245190c805ca259c373eb4c39734eadf6 COPYING
-SHA1 8fc06773e4278bf79a5a5d3ba91c323ad61d910c Changes
+SHA1 8cf836b16ccae70fc90f6b5e5941b13297677d6d Changes
 SHA1 728efedeadc46ab3b69d45973cef0439b6e78087 MANIFEST
-SHA1 a31eb9f74f23b71ac5ef22d9373fd9c3e13c12a4 META.yml
+SHA1 596dba1545c87b83a541c907a172133909309046 META.yml
 SHA1 f44a610f611cc4333f9a9b52873bc5a35fb7ffb3 Makefile.PL
 SHA1 1c3c8896ad9998c841bcf784be4a3728d52a77f8 README
 SHA1 0fbcbc497a9a66484fa41bfd74049689c968b60f TODO
-SHA1 f4e63f35d4a47e0000eaf1de416fcd1fb525e8bd lib/Cache/CacheFactory.pm
+SHA1 cfbace02e88dce29a58dfa687abe06d6058950ef lib/Cache/CacheFactory.pm
 SHA1 361faee2629ba9b6e6549a07b59e906e08e63423 lib/Cache/CacheFactory/Expiry.pm
 SHA1 e05730153e6e8b93a6b9885223eaf83061feadf3 lib/Cache/CacheFactory/Expiry/Base.pm
 SHA1 f94ada2148922ed6b771aa1ff254677e60a289c8 lib/Cache/CacheFactory/Expiry/LastModified.pm
@@ -34,7 +34,7 @@ SHA1 fc11538c6eaee6785eae7c43f47d97b46a37ead5 t/00-load.t
 SHA1 42f1d2fbd90efe2361f3aaa6862d8b0713ca8ed8 t/10-namespace.t
 SHA1 604cd0012ae71b378701ea6bedf0fd4a355151a8 t/20-storage.t
 SHA1 be591980bee9e32c32b05683e277d664557aedaa t/30-size-hack-with-devel-size.t
-SHA1 094e4a243c31f25e821d886d8c73a1068388f9b9 t/31-size-hack-force-missing-devel-size.t
+SHA1 b398de8acd1a67e242c2a20505336bb9e0ac1d98 t/31-size-hack-force-missing-devel-size.t
 SHA1 56948fdbf0c09db71f5362bedc62016f9387e21f t/40-expiry-lastmodified.t
 SHA1 1055fc1bf20a68fc533a31dacb7e06460e33de0c t/40-expiry-size.t
 SHA1 f0f1b752fd2b81f0c3ec187540ee94fec9d65fa0 t/40-expiry-time.t
@@ -45,7 +45,7 @@ SHA1 28f4bc4b60453739559694421acdd0aa03b2c9f1 t/99-pod-coverage.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.9 (GNU/Linux)
 
-iEYEARECAAYFAkjGtqMACgkQk0asf7iG0tTd8wCfcoqAXcjFks5EGOgARAx/uW+t
-AIAAn0i9A1oLms5tFJKFOcJCTeVn81Y+
-=iYYW
+iEYEARECAAYFAkjOZIQACgkQk0asf7iG0tSJRwCffnc08FFAkQGtQbM3nTWEzTTA
+Vo4AnjRIRLRWh2vxmIrrHEmoqSnRFwXo
+=hnQK
 -----END PGP SIGNATURE-----

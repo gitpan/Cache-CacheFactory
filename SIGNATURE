@@ -16,13 +16,13 @@ Hash: SHA1
 
 SHA1 6a7c71578e6b2ebd0a84bd297986798f1437f244 Build.PL
 SHA1 e1f70e2245190c805ca259c373eb4c39734eadf6 COPYING
-SHA1 0509355ac95008ede98e41d2c8e9006a22158253 Changes
+SHA1 0cefa3adf8ff312389037ac5b14150b7272655ad Changes
 SHA1 728efedeadc46ab3b69d45973cef0439b6e78087 MANIFEST
-SHA1 b3f73a47100082f949eabaae6157fee43adb5554 META.yml
+SHA1 106b7d6c925899d0951e2212886058eea17838a5 META.yml
 SHA1 f44a610f611cc4333f9a9b52873bc5a35fb7ffb3 Makefile.PL
 SHA1 1c3c8896ad9998c841bcf784be4a3728d52a77f8 README
 SHA1 0fbcbc497a9a66484fa41bfd74049689c968b60f TODO
-SHA1 39f406d6fd3475e6c8369c050de5d2e411e7e24e lib/Cache/CacheFactory.pm
+SHA1 0b02fefee50418d8930e15c0b415811ef1981bd8 lib/Cache/CacheFactory.pm
 SHA1 361faee2629ba9b6e6549a07b59e906e08e63423 lib/Cache/CacheFactory/Expiry.pm
 SHA1 e05730153e6e8b93a6b9885223eaf83061feadf3 lib/Cache/CacheFactory/Expiry/Base.pm
 SHA1 f94ada2148922ed6b771aa1ff254677e60a289c8 lib/Cache/CacheFactory/Expiry/LastModified.pm
@@ -37,7 +37,7 @@ SHA1 be591980bee9e32c32b05683e277d664557aedaa t/30-size-hack-with-devel-size.t
 SHA1 b398de8acd1a67e242c2a20505336bb9e0ac1d98 t/31-size-hack-force-missing-devel-size.t
 SHA1 56948fdbf0c09db71f5362bedc62016f9387e21f t/40-expiry-lastmodified.t
 SHA1 1055fc1bf20a68fc533a31dacb7e06460e33de0c t/40-expiry-size.t
-SHA1 f0f1b752fd2b81f0c3ec187540ee94fec9d65fa0 t/40-expiry-time.t
+SHA1 64c32ba30d66f345e5e1f5a8152c3ae04a4bedd8 t/40-expiry-time.t
 SHA1 834f5fd6c7fa5ea98e265bf3d3688faa7fe183a3 t/50-deep-clone.t
 SHA1 556f3fff45a7c51c11469d03229cd9d836dd11a6 t/80-export.t
 SHA1 640935336dc1123c0069bcf5432bcaedc2cf22d3 t/90-pod.t
@@ -45,7 +45,7 @@ SHA1 28f4bc4b60453739559694421acdd0aa03b2c9f1 t/99-pod-coverage.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.9 (GNU/Linux)
 
-iEYEARECAAYFAkjU+YUACgkQk0asf7iG0tQaygCggy2WSV55SqmO9qrRpz1nsvOF
-ZQEAn1j6oxHu3V+lm0/mQWLjSb/XLWBH
-=LO2a
+iEYEARECAAYFAkjsry0ACgkQk0asf7iG0tT7PACgtn9Lz9NbKTkdLXR/1K9eOvrC
+C80AoLUTBw/eSBVVLcFj5/84UI7fIl/Y
+=tuiG
 -----END PGP SIGNATURE-----

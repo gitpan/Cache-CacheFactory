@@ -1,12 +1,15 @@
 ---
 name: Cache-CacheFactory
-version: 1.08_01
+version: 1.08_02
 author:
   - 'Sam Graham <libcache-cachefactory-perl@illusori.co.uk>'
 abstract: factory class for Cache::Cache and other modules.
 license: perl
 resources:
   license: http://dev.perl.org/licenses/
+build_requires:
+  Module::Build: 0.07
+  Test::More: 0
 requires:
   Cache::BaseCache: 0
   Cache::Cache: 1
@@ -15,9 +18,6 @@ requires:
   Class::Factory: 0
   Scalar::Util: 0
   Storable: 1.014
-build_requires:
-  Module::Build: 0.07
-  Test::More: 0
 recommends:
   Cache::FastMemoryCache: 0.01
   Cache::FileCache: 0
@@ -27,10 +27,13 @@ recommends:
   File::Basename: 0
   File::Path: 0
   File::Temp: 0
+configure_requires:
+  Module::Build: 0.34
+dynamic_config: 0
 provides:
   Cache::CacheFactory:
     file: lib/Cache/CacheFactory.pm
-    version: 1.08_01
+    version: 1.08_02
   Cache::CacheFactory::Expiry:
     file: lib/Cache/CacheFactory/Expiry.pm
     version: 1.005
@@ -52,7 +55,7 @@ provides:
   Cache::CacheFactory::Storage:
     file: lib/Cache/CacheFactory/Storage.pm
     version: 1.006
-generated_by: Module::Build version 0.280801
+generated_by: Module::Build version 0.34
 meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4

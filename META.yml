@@ -1,6 +1,6 @@
 ---
 name: Cache-CacheFactory
-version: 1.08_04
+version: 1.08_05
 author:
   - 'Sam Graham <libcache-cachefactory-perl@illusori.co.uk>'
 abstract: Factory class for Cache::Cache and other modules.
@@ -33,7 +33,7 @@ dynamic_config: 0
 provides:
   Cache::CacheFactory:
     file: lib/Cache/CacheFactory.pm
-    version: 1.08_04
+    version: 1.08_05
   Cache::CacheFactory::Expiry:
     file: lib/Cache/CacheFactory/Expiry.pm
     version: 1.006
@@ -45,7 +45,7 @@ provides:
     version: 1.005
   Cache::CacheFactory::Expiry::Size:
     file: lib/Cache/CacheFactory/Expiry/Size.pm
-    version: 1.005
+    version: 1.006
   Cache::CacheFactory::Expiry::Time:
     file: lib/Cache/CacheFactory/Expiry/Time.pm
     version: 1.006

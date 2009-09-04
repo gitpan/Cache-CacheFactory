@@ -16,24 +16,24 @@ Hash: SHA1
 
 SHA1 e2bfa21875e910163e096384232bbda81aa276c3 Build.PL
 SHA1 e1f70e2245190c805ca259c373eb4c39734eadf6 COPYING
-SHA1 785e857f8d6f5766845267b75206dea46f20802f Changes
+SHA1 17f9c8ca82bf5776129349fbb9d83d9ad42f4dee Changes
 SHA1 728efedeadc46ab3b69d45973cef0439b6e78087 MANIFEST
-SHA1 a8b9e353bd7a86e6add2927e50cc673c5bfc0385 META.yml
+SHA1 b673c97f38b7793e0b6f645137cc29278871d190 META.yml
 SHA1 dcba619dd8874347a8f6a7f0b45a59dd1a617d2d Makefile.PL
 SHA1 1c3c8896ad9998c841bcf784be4a3728d52a77f8 README
 SHA1 0fbcbc497a9a66484fa41bfd74049689c968b60f TODO
-SHA1 f3e94725640e0ffd90105b77949ae16c0e672c8d lib/Cache/CacheFactory.pm
+SHA1 7efe58567c84c80fdffca2a04bca76d412bf417c lib/Cache/CacheFactory.pm
 SHA1 1ab0121df0350b1ce8f9b56395359d2e52e1c403 lib/Cache/CacheFactory/Expiry.pm
 SHA1 68a13fd0893ee8908392a382e74dace0223616eb lib/Cache/CacheFactory/Expiry/Base.pm
 SHA1 4e8c0e93ad7b2d2596c8d0acdc76cef7f013d12c lib/Cache/CacheFactory/Expiry/LastModified.pm
-SHA1 5212cfb744340b5059526af38978688b1e13af41 lib/Cache/CacheFactory/Expiry/Size.pm
+SHA1 19d77f94c6318521e0098cb3332ed3f2136cf65f lib/Cache/CacheFactory/Expiry/Size.pm
 SHA1 87252deaa5b617a8e7308d7c64ced973133c3895 lib/Cache/CacheFactory/Expiry/Time.pm
 SHA1 d413e839033f37357383bcf936b596ec6b98a3eb lib/Cache/CacheFactory/Object.pm
 SHA1 2b1fefa6620c40d9d39ef267b0a3622b525d5c30 lib/Cache/CacheFactory/Storage.pm
 SHA1 fc11538c6eaee6785eae7c43f47d97b46a37ead5 t/00-load.t
 SHA1 42f1d2fbd90efe2361f3aaa6862d8b0713ca8ed8 t/10-namespace.t
 SHA1 604cd0012ae71b378701ea6bedf0fd4a355151a8 t/20-storage.t
-SHA1 b2b2e601aee3c7dd8e536d08b3054fb8ac91e18f t/30-size-hack-with-devel-size.t
+SHA1 5158a6dfc2ce7a0c8337e9bcc60ced6ad8e16b0b t/30-size-hack-with-devel-size.t
 SHA1 b398de8acd1a67e242c2a20505336bb9e0ac1d98 t/31-size-hack-force-missing-devel-size.t
 SHA1 56948fdbf0c09db71f5362bedc62016f9387e21f t/40-expiry-lastmodified.t
 SHA1 1055fc1bf20a68fc533a31dacb7e06460e33de0c t/40-expiry-size.t
@@ -45,7 +45,7 @@ SHA1 28f4bc4b60453739559694421acdd0aa03b2c9f1 t/99-pod-coverage.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.9 (GNU/Linux)
 
-iEYEARECAAYFAkqg/TkACgkQk0asf7iG0tSBKwCfVFtiGd2G2gydTer/uvkpohdt
-SOoAnjbkCyTkEqlzrk5AK4/zj6nAg0EB
-=/yxH
+iEYEARECAAYFAkqhiOMACgkQk0asf7iG0tRjOgCfYefAc7REYz8RATfXDqKz6bhv
+TQ8AoL7LrFp1mwAYUM2aU21PcQ6lvRtu
+=+3bS
 -----END PGP SIGNATURE-----

@@ -16,20 +16,20 @@ Hash: SHA1
 
 SHA1 e2bfa21875e910163e096384232bbda81aa276c3 Build.PL
 SHA1 e1f70e2245190c805ca259c373eb4c39734eadf6 COPYING
-SHA1 194e0082a6e61c33d970f161c1dc885e024435ee Changes
+SHA1 85ae65fc86b6e7c2d25b8b59110557d00e961de3 Changes
 SHA1 728efedeadc46ab3b69d45973cef0439b6e78087 MANIFEST
-SHA1 aedf5935f27a233cf97ce784045c2840db46edb1 META.yml
+SHA1 1aea46d6c76e5f021eaf315eea50f76b8bacc399 META.yml
 SHA1 9fd0cc4f1b081f2ad0c273d17ae2f9945b63df38 Makefile.PL
 SHA1 1c3c8896ad9998c841bcf784be4a3728d52a77f8 README
 SHA1 0fbcbc497a9a66484fa41bfd74049689c968b60f TODO
-SHA1 29c7e0e28ba186e3e1412be73155f25a5dcfb44d lib/Cache/CacheFactory.pm
-SHA1 174340defa4e419cc88acbcdf909189f3ee5ac60 lib/Cache/CacheFactory/Expiry.pm
-SHA1 2a39530585b0ad26871f26319d5639383ae83c4d lib/Cache/CacheFactory/Expiry/Base.pm
-SHA1 48dd5a6cf11c329e9970fefbe2d2047c0fcb9dda lib/Cache/CacheFactory/Expiry/LastModified.pm
-SHA1 d34a32cae1be80e1281e3a89cbe577ea0733eff3 lib/Cache/CacheFactory/Expiry/Size.pm
-SHA1 de5c05775ceb85537853fc7d05a3a0e452a9b8fa lib/Cache/CacheFactory/Expiry/Time.pm
-SHA1 ca976a72b80f8820f7ed745acd51204978a8e15a lib/Cache/CacheFactory/Object.pm
-SHA1 be5657b3ce036cdf3ca5e2ee3517e2bb5dc9a053 lib/Cache/CacheFactory/Storage.pm
+SHA1 f25681fa22095723950d23254cd47f562bee9aab lib/Cache/CacheFactory.pm
+SHA1 7d7bc833b91a43b2840c3c1eea669625d4c365da lib/Cache/CacheFactory/Expiry.pm
+SHA1 8f8029f3fa77e85ff21395c332afd6c1ea1cb870 lib/Cache/CacheFactory/Expiry/Base.pm
+SHA1 58d7e4f4382b4e40962b013e27d72bcb9999e696 lib/Cache/CacheFactory/Expiry/LastModified.pm
+SHA1 12f3dcc9046a1b675eeea4e2822e691cacd5ffcc lib/Cache/CacheFactory/Expiry/Size.pm
+SHA1 9ab58cfb425a81d8f55a6ba5e059432bc6946d50 lib/Cache/CacheFactory/Expiry/Time.pm
+SHA1 3e5ffee1265bfd1e8726610941f9aa90c45ea639 lib/Cache/CacheFactory/Object.pm
+SHA1 4945ebbb07354e7032ebc832e7f63d8bf035540a lib/Cache/CacheFactory/Storage.pm
 SHA1 fc11538c6eaee6785eae7c43f47d97b46a37ead5 t/00-load.t
 SHA1 42f1d2fbd90efe2361f3aaa6862d8b0713ca8ed8 t/10-namespace.t
 SHA1 604cd0012ae71b378701ea6bedf0fd4a355151a8 t/20-storage.t
@@ -45,7 +45,7 @@ SHA1 28f4bc4b60453739559694421acdd0aa03b2c9f1 t/99-pod-coverage.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAktxVhIACgkQk0asf7iG0tTdAgCfW+JUKOJ9nQBqVRI+PdJ3L9de
-o54An1QR5MzOU9Db7b0rwH8ZZW0BrZ0P
-=cCQw
+iEYEARECAAYFAkt6jxsACgkQk0asf7iG0tR2ogCgj/5Qjt6WotZsia75TShn5ODU
+N0sAniTCNMrPkvIy3L+v6VjFy79HxUqi
+=Csyj
 -----END PGP SIGNATURE-----
